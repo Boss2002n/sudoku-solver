@@ -1,6 +1,3 @@
-Here is an example of a basic implementation of a Sudoku solver in Python:
-
-Copy code
 def solve_sudoku(board):
     find = find_empty(board)
     if not find:
